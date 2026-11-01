@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 285" width="560" height="285" role="img" aria-labelledby="t d">
+<title id="t">The liver processes alcohol at a roughly fixed rate</title>
+<desc id="d">Diagram of stomach and liver with a clock: the liver metabolizes alcohol at a steady rate that time alone governs.</desc>
+<defs><marker id="ah" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 z" fill="#ff8b61"/></marker>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#0d3b3e"/>
+<stop offset="1" stop-color="#0a6467"/>
+</linearGradient>
+</defs>
+<rect width="560" height="285" rx="14" fill="url(#bg)"/>
+
+<text x="40" y="42" font-family="Inter,system-ui,sans-serif" font-size="14" font-weight="800" fill="#a8e6cf" letter-spacing="1.5">THE LIVER SETS THE PACE</text>
+<!-- stomach -->
+<g>
+<path d="M110 90 q-8 55 25 70 q20 8 28 -12" fill="none" stroke="#a8e6cf" stroke-width="2.5"/>
+<text x="132" y="185" font-family="Inter,system-ui,sans-serif" font-size="11" fill="#b8d2cd" text-anchor="middle">Stomach</text>
+</g>
+<!-- liver -->
+<g>
+<path d="M300 95 q45 -18 80 5 q28 17 20 48 q-6 26 -38 30 q-30 4 -52 -18 q-16 -18 -10 -65 z" fill="#0a6467" stroke="#a8e6cf" stroke-width="2.5"/>
+<text x="352" y="160" font-family="Inter,system-ui,sans-serif" font-size="11" fill="#b8d2cd" text-anchor="middle">Liver ~fixed rate</text>
+</g>
+<!-- arrow stomach to liver -->
+<path d="M170 125 q60 -10 118 8" stroke="#ff8b61" stroke-width="3" fill="none" marker-end="url(#ah)"/>
+<!-- clock icon -->
+<g>
+<circle cx="480" cy="120" r="26" fill="none" stroke="#ff8b61" stroke-width="2.5"/>
+<path d="M480 120 v-14 M480 120 h11" stroke="#ff8b61" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+<text x="480" y="163" font-family="Inter,system-ui,sans-serif" font-size="11" fill="#b8d2cd" text-anchor="middle">Time, not tricks</text>
+<text x="40" y="215" font-family="Inter,system-ui,sans-serif" font-size="12" fill="#b8d2cd">The liver clears roughly a standard drink per hour —</text>
+<text x="40" y="233" font-family="Inter,system-ui,sans-serif" font-size="12" fill="#b8d2cd">coffee, showers and food do not speed up this fixed process.</text>
+
+</svg>

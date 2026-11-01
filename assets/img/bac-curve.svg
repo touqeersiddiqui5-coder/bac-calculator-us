@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 285" width="560" height="285" role="img" aria-labelledby="t d">
+<title id="t">Blood alcohol curve with absorption, peak and elimination phases</title>
+<desc id="d">Illustrated line graph: estimated BAC rises during absorption, peaks, then falls slowly during elimination, crossing the dashed 0.08 percent line.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#0d3b3e"/>
+<stop offset="1" stop-color="#0a6467"/>
+</linearGradient>
+</defs>
+<rect width="560" height="285" rx="14" fill="url(#bg)"/>
+
+<text x="40" y="42" font-family="Inter,system-ui,sans-serif" font-size="14" font-weight="800" fill="#a8e6cf" letter-spacing="1.5">A TYPICAL BAC CURVE</text>
+<line x1="55" y1="230" x2="520" y2="230" stroke="#a8e6cf" stroke-width="1.5" opacity="0.6"/>
+<line x1="55" y1="230" x2="55" y2="60" stroke="#a8e6cf" stroke-width="1.5" opacity="0.6"/>
+<text x="285" y="255" font-family="Inter,system-ui,sans-serif" font-size="12" fill="#b8d2cd" text-anchor="middle">Time since first drink (hours)</text>
+<text x="48" y="150" font-family="Inter,system-ui,sans-serif" font-size="12" fill="#b8d2cd" text-anchor="end" transform="rotate(-90 48 150)">BAC</text>
+<!-- rising phase -->
+<path d="M55 230 C 110 210, 130 120, 175 95" stroke="#ff8b61" stroke-width="5" fill="none" stroke-linecap="round"/>
+<!-- peak plateau -->
+<path d="M175 95 C 205 82, 225 82, 250 92" stroke="#ff8b61" stroke-width="5" fill="none" stroke-linecap="round"/>
+<!-- elimination -->
+<path d="M250 92 C 330 120, 420 180, 505 214" stroke="#a8e6cf" stroke-width="5" fill="none" stroke-linecap="round"/>
+<!-- peak marker -->
+<circle cx="212" cy="82" r="7" fill="#ff8b61"/>
+<text x="212" y="62" font-family="Inter,system-ui,sans-serif" font-size="11" fill="#ffb9a5" text-anchor="middle">Peak BAC</text>
+<!-- 0.08 threshold dashed -->
+<line x1="55" y1="118" x2="520" y2="118" stroke="#ffb9a5" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="525" y="122" font-family="Inter,system-ui,sans-serif" font-size="11" fill="#ffb9a5" text-anchor="end" transform="translate(-60 0)">0.08% (typical US legal limit)</text>
+<!-- labels -->
+<text x="115" y="175" font-family="Inter,system-ui,sans-serif" font-size="11" fill="#ffb9a5" transform="rotate(-63 115 175)">Absorption</text>
+<text x="395" y="200" font-family="Inter,system-ui,sans-serif" font-size="11" fill="#a8e6cf" transform="rotate(22 395 200)">Elimination</text>
+
+</svg>

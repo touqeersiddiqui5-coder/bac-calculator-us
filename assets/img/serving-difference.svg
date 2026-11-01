@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 285" width="560" height="285" role="img" aria-labelledby="t d">
+<title id="t">Two same-size wine pours with different ABV contain different alcohol doses</title>
+<desc id="d">Illustration of two identical 175 milliliter wine glasses at 12 and 14.5 percent ABV, showing the stronger pour contains about half a US drink more ethanol.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#0d3b3e"/>
+<stop offset="1" stop-color="#0a6467"/>
+</linearGradient>
+</defs>
+<rect width="560" height="285" rx="14" fill="url(#bg)"/>
+
+<text x="40" y="42" font-family="Inter,system-ui,sans-serif" font-size="14" font-weight="800" fill="#a8e6cf" letter-spacing="1.5">SAME POUR, DIFFERENT DOSE</text>
+<!-- two identical wine glasses, different fill/ABV -->
+<g>
+<path d="M110 120 q0 40 22 48 v48 h-44 v-48 q22 -8 22 -48 z" fill="#f5f8f5" stroke="#a8e6cf" stroke-width="2.5"/>
+<path d="M112 148 q0 26 20 32 v34 h-38 v-34 q16 -6 16 -32 z" fill="#ff8b61"/>
+<text x="110" y="245" font-family="Inter,system-ui,sans-serif" font-size="12" fill="#b8d2cd" text-anchor="middle">175 ml · 12% ABV</text>
+<text x="110" y="263" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" fill="#ffb9a5" text-anchor="middle">2.6 drinks</text>
+</g>
+<g>
+<path d="M330 120 q0 40 22 48 v48 h-44 v-48 q22 -8 22 -48 z" fill="#f5f8f5" stroke="#a8e6cf" stroke-width="2.5"/>
+<path d="M332 148 q0 26 20 32 v34 h-38 v-34 q16 -6 16 -32 z" fill="#ffb9a5"/>
+<text x="330" y="245" font-family="Inter,system-ui,sans-serif" font-size="12" fill="#b8d2cd" text-anchor="middle">175 ml · 14.5% ABV</text>
+<text x="330" y="263" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" fill="#ffb9a5" text-anchor="middle">3.1 drinks</text>
+</g>
+<text x="245" y="185" font-family="Inter,system-ui,sans-serif" font-size="22" font-weight="800" fill="#a8e6cf" text-anchor="middle">→</text>
+<text x="245" y="215" font-family="Inter,system-ui,sans-serif" font-size="12" fill="#b8d2cd" text-anchor="middle">+0.5 drink, same volume</text>
+<text x="40" y="70" font-family="Inter,system-ui,sans-serif" font-size="12.5" fill="#d4e6e2">Identical pours can differ by 20%+ in pure alcohol.</text>
+
+</svg>

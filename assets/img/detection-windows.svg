@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 285" width="560" height="285" role="img" aria-labelledby="t d">
+<title id="t">Illustrative comparison of alcohol detection windows by test type</title>
+<desc id="d">Horizontal bar chart suggesting ethanol clears from blood and breath in hours while urine ethanol lasts slightly longer and EtG and EtS metabolites can be detectable for days.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#0d3b3e"/>
+<stop offset="1" stop-color="#0a6467"/>
+</linearGradient>
+</defs>
+<rect width="560" height="285" rx="14" fill="url(#bg)"/>
+
+<text x="40" y="42" font-family="Inter,system-ui,sans-serif" font-size="14" font-weight="800" fill="#a8e6cf" letter-spacing="1.5">DIFFERENT TESTS, DIFFERENT WINDOWS</text>
+<!-- horizontal bars: blood, breath, urine, EtG -->
+<g font-family="Inter,system-ui,sans-serif" font-size="12">
+<!-- row template: label + bar + right label -->
+<text x="55" y="90" fill="#d4e6e2">Blood (ethanol)</text>
+<rect x="185" y="79" width="90" height="14" rx="7" fill="#ff8b61"/>
+<text x="283" y="90" fill="#b8d2cd" font-size="11">hours</text>
+
+<text x="55" y="122" fill="#d4e6e2">Breath (ethanol)</text>
+<rect x="185" y="111" width="90" height="14" rx="7" fill="#ff8b61"/>
+
+<text x="55" y="154" fill="#d4e6e2">Urine (ethanol)</text>
+<rect x="185" y="143" width="130" height="14" rx="7" fill="#ffb9a5"/>
+
+<text x="55" y="186" fill="#d4e6e2">Urine (EtG/EtS)</text>
+<rect x="185" y="175" width="240" height="14" rx="7" fill="#a8e6cf"/>
+
+<text x="55" y="218" fill="#d4e6e2">Hair/nails</text>
+<rect x="185" y="207" width="290" height="14" rx="7" fill="#a8e6cf" opacity="0.6"/>
+</g>
+<text x="40" y="255" font-family="Inter,system-ui,sans-serif" font-size="11.5" fill="#b8d2cd">Illustrative only — actual detection windows vary by dose, test and laboratory.</text>
+
+</svg>

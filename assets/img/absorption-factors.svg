@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 265" width="560" height="265" role="img" aria-labelledby="t d">
+<title id="t">Four factors that change how quickly alcohol is absorbed</title>
+<desc id="d">Four labeled cards — food, carbonation, drink strength and pace — with a rising arrow, showing factors that affect absorption speed.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#0d3b3e"/>
+<stop offset="1" stop-color="#0a6467"/>
+</linearGradient>
+</defs>
+<rect width="560" height="265" rx="14" fill="url(#bg)"/>
+
+<text x="40" y="42" font-family="Inter,system-ui,sans-serif" font-size="14" font-weight="800" fill="#a8e6cf" letter-spacing="1.5">WHAT CHANGES HOW FAST IT HITS</text>
+<!-- 4 factor chips -->
+<g font-family="Inter,system-ui,sans-serif">
+<rect x="45" y="75" width="235" height="52" rx="12" fill="#0a6467" stroke="#a8e6cf" stroke-width="1.5"/>
+<text x="62" y="98" font-size="13" font-weight="700" fill="#a8e6cf">Food in the stomach</text>
+<text x="62" y="116" font-size="11" fill="#b8d2cd">slows absorption</text>
+
+<rect x="300" y="75" width="235" height="52" rx="12" fill="#0a6467" stroke="#a8e6cf" stroke-width="1.5"/>
+<text x="317" y="98" font-size="13" font-weight="700" fill="#a8e6cf">Carbonation</text>
+<text x="317" y="116" font-size="11" fill="#b8d2cd">may speed stomach emptying</text>
+
+<rect x="45" y="140" width="235" height="52" rx="12" fill="#0a6467" stroke="#a8e6cf" stroke-width="1.5"/>
+<text x="62" y="163" font-size="13" font-weight="700" fill="#a8e6cf">Drink strength</text>
+<text x="62" y="181" font-size="11" fill="#b8d2cd">higher ABV absorbs faster</text>
+
+<rect x="300" y="140" width="235" height="52" rx="12" fill="#0a6467" stroke="#a8e6cf" stroke-width="1.5"/>
+<text x="317" y="163" font-size="13" font-weight="700" fill="#a8e6cf">Pace</text>
+<text x="317" y="181" font-size="11" fill="#b8d2cd">spacing gives the liver time</text>
+</g>
+<!-- small rising arrows graphic -->
+<g stroke="#ff8b61" stroke-width="2.5" fill="none" stroke-linecap="round">
+<path d="M150 225 q25 -35 60 -18"/>
+<path d="M198 210 l12 -14 M198 210 l14 6"/>
+</g>
+<text x="300" y="240" font-family="Inter,system-ui,sans-serif" font-size="11.5" fill="#b8d2cd">Feeling it sooner ≠ peaking sooner.</text>
+
+</svg>
