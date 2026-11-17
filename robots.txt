@@ -1,9 +1,7 @@
+User-agent: *
+Allow: /
+
 User-agent: Mediapartners-Google
 Allow: /
 
-User-agent: Googlebot
-Allow: /
-
-User-agent: *
-Allow: /
-Sitemap: https://bac-calculator-us.com/sitemap_index.xml
+Sitemap: https://bac-calculator-us.com/sitemap.xml
